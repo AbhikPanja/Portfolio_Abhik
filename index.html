@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Abhik Panja</h1>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+            <img src="./images/Abhik_image.jpeg" alt="My Photo" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am Abhik Panja, a web developer with expertise in front-end and back-end technologies. I have a strong background in computer science and have worked on various projects that demonstrate my skills and creativity.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>B.Tech in Information Technology, MCKV Institute of Engineering</li>
+                <li>High Secondary, Uttarpara Amaraendra Vidyapith</li>
+            </ul>
+            <h3>Professional Experience</h3>
+            <ul>
+                <li>Web Developer Intern at Prodigy InfoTech</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Drone-Based Air Quality Monitoring and Pollution Analysis</h3>
+                <p>It gathers data through sensors and provides results, identifying harmful gases and safe gases.
+                     It also gives a brief description of actions to take to decrease harmful gases and presents graphs showing the concentration and range of these gases. 
+                     <span>HTML, CSS</span>, and <span>JavaScript</span> were used to create this project.</p>
+            </div>
+           
+            <!-- Add more projects  -->
+        </div>
+    </section>
+
+    
+ <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhik Panja. All rights reserved.</p>
+            <ul class="social-icons">
+                <li><a href="https://github.com/AbhikPanja"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://twitter.com/yourusername"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/abhik-panja-217a58248"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/yourusername"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
